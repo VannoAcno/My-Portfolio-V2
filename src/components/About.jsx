@@ -5,8 +5,6 @@ import face from "../assets/Face.png";
 
 /**
  * ABOUT SECTION COMPONENT
- * Character profile section with typing animation
- * Features: Terminal-style interface, real-time typing effect, ORV narrative
  */
 export default function AboutSection() {
   const [typedText, setTypedText] = useState("");
@@ -45,10 +43,10 @@ Through countless trials of production bugs, merge conflicts, and deadline scena
   }, []);
 
   return (
-    <section id="about" className="py-24 px-4 max-w-4xl mx-auto">
+    <section id="about" className="py-24 px-4 max-w-7xl mx-auto">
       {/* Section Header */}
       <div className="mb-16 text-center">
-        <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 font-mono">
+        <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 font-mono drop-shadow-[0_2px_4px_rgba(0,255,255,0.3)]">
           [CHARACTER PROFILE]
         </h2>
         <Separator className="mx-auto bg-gradient-to-r from-blue-400 to-transparent h-1 w-2/3" />
@@ -68,18 +66,24 @@ Through countless trials of production bugs, merge conflicts, and deadline scena
         </p>
       </div>
 
-      {/* Typing Panel */}
-      <div className="system-panel bg-blue-500/10 border-2 border-blue-400 rounded-xl p-8 backdrop-blur-sm">
-        <div className="flex items-center mb-6">
-          <Terminal className="h-6 w-6 text-blue-400 mr-3" />
-          <h3 className="text-xl font-mono text-blue-300">[SYSTEM LOG] Reader Analysis</h3>
-        </div>
+      {/* Typing Panel (System Panel) */}
+      <div className="w-full">
+        <div className="system-panel w-full max-w-6xl mx-auto p-8">
+          <div className="flex items-center mb-6">
+            <Terminal className="h-6 w-6 text-blue-400 mr-3" />
+            <h3 className="text-xl font-mono text-blue-300">
+              [SYSTEM LOG] Reader Analysis
+            </h3>
+          </div>
 
-        <div className="font-mono text-sm leading-relaxed bg-gray-800/50 p-6 rounded-lg border border-blue-400/30">
-          <pre className="whitespace-pre-wrap text-blue-100">
-            {typedText}
-            {showCursor && <span className="animate-pulse text-cyan-400">█</span>}
-          </pre>
+          <div className="font-mono text-sm leading-relaxed bg-gray-800/50 p-6 rounded-lg border border-blue-400/30">
+            <pre className="whitespace-pre-wrap text-blue-100">
+              {typedText}
+              {showCursor && (
+                <span className="animate-pulse text-cyan-400">█</span>
+              )}
+            </pre>
+          </div>
         </div>
       </div>
     </section>

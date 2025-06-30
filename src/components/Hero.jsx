@@ -73,7 +73,7 @@ export default function HeroSection({ onNavigateToProjects }) {
             className="system-button border-2 border-cyan-400 text-cyan-300 hover:bg-cyan-400 hover:text-gray-900 font-mono text-lg px-10 py-4 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50"
           >
             <Download className="mr-3 h-6 w-6" />
-            Download CV
+            <a href="https://drive.google.com/file/d/1qfPe0pT3llvsQGsYlWrQEupdOHx2Jy3x/view?usp=drive_link">Download CV</a>
           </Button>
         </div>
       </div>
