@@ -183,29 +183,16 @@ export default function ProjectsSection() {
     {
       id: "PROJ_003",
       title: "Tang Zu Ice Shop",
-      shortDescription: "Collaborate, track, and manage with ease.",
+      shortDescription: "Toko pembelian ice cream berbasis website.",
       fullDescription:
-        "A sophisticated team productivity platform that enables real-time collaboration...",
+        "Toko pembelian ice cream berbasis website.",
       tech: ["Html", "Css", "Javascript"],
-      status: "IN_PROGRESS",
-      threat_level: "EXTREME",
+      status: "COMPLETED",
+      threat_level: "MEDIUM",
       completion: 75,
-      github: "https://github.com/example/taskmanager",
-      demo: "https://taskmanager-demo.com",
-    },
-    {
-      id: "PROJ_004",
-      title: "AI Content Generator",
-      shortDescription: "AI-powered content generation tool.",
-      fullDescription:
-        "An innovative AI-powered content generation tool that leverages machine learning...",
-      tech: ["Python", "TensorFlow", "FastAPI", "React", "OpenAI"],
-      status: "PLANNING",
-      threat_level: "UNKNOWN",
-      completion: 25,
-      github: "https://github.com/example/ai-content",
-      demo: null,
-    },
+      github: "https://github.com/VannoAcno/Tang-Zu-Ice",
+      demo: "https://vannoacno.github.io/Tang-Zu-Ice/",
+    }, 
   ];
 
   useEffect(() => {
