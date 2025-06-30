@@ -159,7 +159,7 @@ export default function ProjectsSection() {
       title: "My Portfolio Website V1",
       shortDescription: "Website Portfolio saya yang pertama dibuat dengan full native.",
       fullDescription:
-        "Website Portfolio saya yang pertama dibuat dengan full native.",
+        "Website Portfolio saya yang pertama kali dibuat dengan full native.",
       tech: ["Html", "Css", "JavaScript"],
       status: "COMPLETED",
       threat_level: "LOW",
@@ -177,16 +177,16 @@ export default function ProjectsSection() {
       status: "COMPLETED",
       threat_level: "LOW",
       completion: 100,
-      github: "https://github.com/example/ecommerce",
+      github: "https://github.com/VannoAcno/My-Portfolio-V2",
       demo: "https://ecommerce-demo.com",
     },
     {
       id: "PROJ_003",
-      title: "Team Productivity Platform",
+      title: "Tang Zu Ice Shop",
       shortDescription: "Collaborate, track, and manage with ease.",
       fullDescription:
         "A sophisticated team productivity platform that enables real-time collaboration...",
-      tech: ["Next.js", "Socket.io", "MongoDB", "Tailwind", "AWS"],
+      tech: ["Html", "Css", "Javascript"],
       status: "IN_PROGRESS",
       threat_level: "EXTREME",
       completion: 75,
