@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, useScroll } from "motion/react";
-import Ss from "../assets/LogoSs.png";
+import Ss from "../assets/LogoSs.webp";
 
 /**
  * NAVIGATION COMPONENT

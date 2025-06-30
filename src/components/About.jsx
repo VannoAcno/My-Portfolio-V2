@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Terminal } from "lucide-react";
-import face from "../assets/Face.png";
+import face from "../assets/Face.webp";
 
 /**
  * ABOUT SECTION COMPONENT
